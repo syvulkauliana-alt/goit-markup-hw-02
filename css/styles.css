@@ -6,18 +6,20 @@ body {
 }
 
 .logo {
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2e2f42;
+    color: #4d5ae5;
     font-weight: 700;
     height: 24px;
+
 }
 
 .logo-color {
     text-transform: uppercase;
     text-decoration: none;
-    color: #4d5ae5;
+    color: #2e2f42;;
     font-weight: 700;
     font-size: 18px;
     height: 24px;
@@ -34,12 +36,22 @@ ul {
     font-size: 16px;
 }
 
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: #404bbf;
+}
+
 .address-list-item {
     font-style: normal;
     text-decoration: none;
-    color: #2e2f42;
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
+}
+
+.address-list-item:hover,
+.address-list-item.focus {
+    color: #404bbf;
 }
 
 .main-section {
@@ -48,12 +60,26 @@ ul {
 
 .main-title {
     text-align: center;
-    color: #ffffff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
 }
 
 .button {
     background-color: #4d5ae5;
-    color: #ffffff;
+    color: #fff;
+    width: 169px;
+    height: 56px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
 }
 
 .features-section {
@@ -62,17 +88,24 @@ ul {
 
 .team-section {
     background-color: #f4f4fd;
-    width: 1440px;
 }
 
-h2{
+.features-header,
+.team-header,
+.portfolio-header {
     text-align: center;
 }
 
 .header-team-item,
 .paragraph-team-item {
     text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .team-item-person {
     text-align: left;
 }
@@ -88,6 +121,18 @@ h2{
 .header-portfolio-item,
 .paragraph-portfolio-item {
     text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.header-portfolio-item:hover,
+.header-portfolio-item:focus,
+.paragraph-portfolio-item:hover,
+.paragraph-portfolio-item:focus {
+   color: #2e2f42; 
 }
 
 .footer {
@@ -100,4 +145,8 @@ h2{
 
 .paragraph-footer {
     color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
 }
