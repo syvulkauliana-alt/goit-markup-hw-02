@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto","Raleway" sans-serif;
+    font-family: "Roboto","Raleway",sans-serif;
     color: #2e2f42;
     background-color: #fff;
     line-height: 1.5;
@@ -7,22 +7,23 @@ body {
 
 .logo {
     font-family: "Raleway";
-    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     color: #2e2f42;
 }
 
 .logo-color {
+    font-family: "Raleway";
     text-transform: uppercase;
     text-decoration: none;
-    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
     color: inherit;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     line-height: inherit;
 }
 
@@ -53,7 +54,7 @@ ul {
 }
 
 .address-list-item:hover,
-.address-list-item.focus {
+.address-list-item:focus {
     color: #404bbf;
 }
 
@@ -89,6 +90,10 @@ ul {
 .team-header,
 .portfolio-header {
     text-align: center;
+    line-height: 1.11;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
 }
 
 .features-list-header {
@@ -96,12 +101,15 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     color: inherit;
+    letter-spacing: 0.02em;
+
 }
 
 .features-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .team-section {
@@ -110,12 +118,13 @@ ul {
 
 
 .header-team-item {
+    font-weight: 500;
+    font-size: 20px;
     text-align: center;
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
-    color: #2e2f42;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .paragraph-team-item {
@@ -140,7 +149,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color:#2e2f42;
 }
 
@@ -148,7 +157,7 @@ ul {
     text-align: left;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -167,7 +176,7 @@ ul {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     color: #f4f4fd;
     text-transform: uppercase;
 }
@@ -176,6 +185,6 @@ ul {
     color: #f4f4fd;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     line-height: inherit;
 }
